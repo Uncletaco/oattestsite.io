@@ -1,22 +1,140 @@
-Your HTML file is ready to upload into GitHub exactly as written. Save the content as `index.html` on your local machine, then push it to your repository using these steps:
-
-1. Open your terminal or Git Bash.
-2. Navigate to your project directory:
-   ```bash
-   cd /path/to/your/project
-   ```
-3. Save the HTML code in a file named `index.html`.
-4. Add the file to git:
-   ```bash
-   git add index.html
-   ```
-5. Commit the file:
-   ```bash
-   git commit -m "Add Obsidian Auto Transport webpage"
-   ```
-6. Push it to GitHub:
-   ```bash
-   git push origin main
-   ```
-
-Would you like me to also prepare a `README.md` file so your GitHub repo looks professional when someone visits it?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Obsidian Auto Transport - Nationwide Vehicle Shipping</title>
+<meta name="description" content="Nationwide auto transport by Obsidian Auto Transport. Safe, reliable vehicle shipping with open and enclosed carriers, door-to-door service, and transparent pricing." />
+<link rel="icon" href="data:," />
+<style>
+  :root { --ink:#0f1f2f; --bg:#f8f9fa; }
+  * { box-sizing: border-box; }
+  body {font-family: Arial, sans-serif; margin:0; color:#333;}
+  header {background:var(--ink); color:#fff; padding:20px; text-align:center;}
+  header h1 {margin:0;}
+  section {padding:40px 20px; max-width:1100px; margin:auto;}
+  .hero {background:var(--bg); text-align:center;}
+  .hero h2 {margin-bottom:20px;}
+  .quote-form {background:#fff; padding:20px; border:1px solid #ddd; max-width:600px; margin:20px auto; border-radius:8px;}
+  .quote-form input, .quote-form select {width:100%; padding:12px; margin-bottom:12px; border:1px solid #ccc; border-radius:6px;}
+  .quote-form button {background:var(--ink); color:#fff; padding:12px 20px; border:none; border-radius:6px; cursor:pointer;}
+  .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
+  .card {background:#fff; padding:20px; border:1px solid #ddd; border-radius:8px;}
+  table {width:100%; border-collapse:collapse; margin-top:20px;}
+  table, th, td {border:1px solid #ddd;}
+  th, td {padding:10px; text-align:left;}
+  footer {background:var(--ink); color:#fff; text-align:center; padding:20px; margin-top:40px;}
+  .image-block {text-align:center; margin:30px 0;}
+  .image-block img {max-width:100%; border-radius:8px; height:auto;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Obsidian Auto Transport</h1>
+  <p>Safe. Reliable. Hassle-Free Vehicle Shipping Nationwide.</p>
+</header>
+<section class="hero">
+  <h2>Nationwide Car Shipping You Can Rely On</h2>
+  <p>Get your instant, no-obligation quote today and let our experts handle the rest.</p>
+  <form class="quote-form" action="#" method="post">
+    <input type="text" name="pickup" placeholder="Pickup Location" required />
+    <input type="text" name="delivery" placeholder="Delivery Location" required />
+    <input type="text" name="vehicle" placeholder="Vehicle Make / Model" required />
+    <input type="date" name="date" />
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <button type="submit">Get My Quote</button>
+  </form>
+</section>
+<div class="image-block">
+  <img src="ai_images/obsidian-truck-hero.jpg" alt="Obsidian Auto Transport truck driving on scenic highway" />
+</div>
+<section>
+  <h2>Why Choose Obsidian Auto Transport?</h2>
+  <div class="grid">
+    <div class="card"><strong>Nationwide Coverage</strong><br /> From coast to coast, we deliver your vehicle anywhere in the U.S.</div>
+    <div class="card"><strong>Flexible Options</strong><br /> Enclosed or open carrier service to match your needs and budget.</div>
+    <div class="card"><strong>Trusted Professionals</strong><br /> Experienced drivers and modern equipment ensure a safe journey.</div>
+  </div>
+</section>
+<div class="image-block">
+  <img src="ai_images/open-carrier-loaded.jpg" alt="Open carrier fully loaded with vehicles in transit" />
+</div>
+<section>
+  <h2>Sample Transport Rates</h2>
+  <table>
+    <tr><th>Route</th><th>Distance</th><th>Timeframe</th></tr>
+    <tr><td>Los Angeles, CA → Dallas, TX</td><td>1,435 mi</td><td>3–5 days</td></tr>
+    <tr><td>Miami, FL → New York, NY</td><td>1,280 mi</td><td>3–4 days</td></tr>
+    <tr><td>Seattle, WA → Chicago, IL</td><td>2,050 mi</td><td>5–7 days</td></tr>
+  </table>
+</section>
+<div class="image-block">
+  <img src="ai_images/coast-to-coast.jpg" alt="Scenic highway representing coast-to-coast transport" />
+</div>
+<section>
+  <h2>Coast-to-Coast Transport Made Simple</h2>
+  <p>Whether you’re relocating, purchasing a vehicle from out of state, or sending a car to a loved one, Obsidian Auto Transport makes the process seamless and worry-free. Our team handles the logistics, ensuring your vehicle arrives safely and on time.</p>
+</section>
+<section>
+  <h2>Our Most Popular Services</h2>
+  <ul>
+    <li>Open Carrier Transport – cost-effective and reliable.</li>
+    <li>Enclosed Carrier Transport – maximum protection for luxury, classic, or specialty vehicles.</li>
+    <li>Expedited Shipping – when time is critical.</li>
+    <li>Door-to-Door Delivery – convenience at its finest.</li>
+  </ul>
+</section>
+<section>
+  <h2>The Obsidian Difference</h2>
+  <ul>
+    <li>Transparent pricing – no hidden fees.</li>
+    <li>Real-time updates – stay informed from pickup to delivery.</li>
+    <li>Fully insured – peace of mind every mile.</li>
+    <li>Nationwide network – access to trusted carriers everywhere.</li>
+  </ul>
+</section>
+<div class="image-block">
+  <img src="ai_images/enclosed-trailer.jpg" alt="Enclosed trailer transport for luxury vehicles" />
+</div>
+<section>
+  <h2>How We Determine Your Car Shipping Rate</h2>
+  <p>Your auto transport quote is based on several important factors: the distance of your shipment, vehicle size and weight, the type of trailer service you select, pickup and delivery locations, the season, fuel costs, and how quickly you need the vehicle delivered.</p>
+  <p>Enclosed transport, larger vehicles, and shipments to rural or difficult-to-reach areas may require more resources, which can increase the rate. Seasonal demand and fuel price changes can also affect pricing. If you need expedited service, we can arrange it for an additional fee.</p>
+  <p>Our team is here to walk you through these considerations and help tailor the most cost-effective solution for your needs, without compromising on quality or care.</p>
+  <ul>
+    <li>Distance and delivery timeframe</li>
+    <li>Accessibility of pickup and drop-off locations</li>
+    <li>Season or time of year</li>
+    <li>Vehicle size and weight</li>
+    <li>Chosen transport method (open or enclosed)</li>
+    <li>Fuel prices at the time of shipment</li>
+  </ul>
+</section>
+<div class="image-block">
+  <img src="ai_images/highway-travel.jpg" alt="Car hauler driving along a highway with mountains in background" />
+</div>
+<section>
+  <h2>How It Works</h2>
+  <ol>
+    <li>Request your quote online or by phone.</li>
+    <li>Choose your preferred service type.</li>
+    <li>We pick up your vehicle from your chosen location.</li>
+    <li>Your car is delivered safely and on time.</li>
+  </ol>
+</section>
+<section>
+  <h2>Customer Testimonials</h2>
+  <blockquote>"Flawless experience from start to finish! My classic Mustang arrived on time and in perfect condition." – Sarah J., CA</blockquote>
+  <blockquote>"Obsidian’s communication and professionalism were unmatched." – Daniel R., NY</blockquote>
+</section>
+<section>
+  <h2>Get Started Today</h2>
+  <p>Your car deserves the best. Trust Obsidian Auto Transport for secure, professional, and timely delivery – anywhere in the USA.</p>
+  <button>Get My Free Quote</button>
+</section>
+<footer>
+  <p>&copy; 2025 Obsidian Auto Transport. All rights reserved.</p>
+</footer>
+</body>
+</html>
